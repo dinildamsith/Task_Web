@@ -29,7 +29,7 @@ const navItems: NavItem[] = [
     name: "Items",
     icon: <ListIcon />,
     subItems: [
-        { name: "Items Manage", path: "/items-manage", pro: false },
+        // { name: "Items Manage", path: "/items-manage", pro: false },
         { name: "Warehouse", path: "/warehouse", pro: false },
     ],
   },
