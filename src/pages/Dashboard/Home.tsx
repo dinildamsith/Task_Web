@@ -16,10 +16,15 @@ export default function Home() {
   const [allCustomerCount, setAllCustomerCount] = useState<any>()
   const [ordersSummary, setOrderSummary] = useState<any>()
   const [outOfStockItems, setOutOfStockItems] = useState<any>()
-  const [mostSaleItemDetails, setMostSaleItemDetails] = useState<any>()
+  // const [mostSaleItemDetails, setMostSaleItemDetails] = useState<any>()
+
+    const dummyOrdersSummary = {
+        orderCount: [5, 8, 6, 10, 12, 7, 15, 11, 9, 13, 14, 16],
+        orderTotal: 5000,
+    };
 
 
-  useEffect(() => {
+    useEffect(() => {
     //--------------dumy data
     setAllCustomerCount(20)
     setOrderSummary({
@@ -36,10 +41,10 @@ export default function Home() {
             itemImageUrl: "https://m.media-amazon.com/images/I/31dke4F%2BcTL._SY300_SX300_QL70_FMwebp_.jpg"
         }
         ])
-    setMostSaleItemDetails({
-        itemName: "Most Sold Item",
-        itemImageUrl: "https://via.placeholder.com/340"
-    })
+    // setMostSaleItemDetails({
+    //     itemName: "Most Sold Item",
+    //     itemImageUrl: "https://via.placeholder.com/340"
+    // })
   }, []);
 
   return (
@@ -52,7 +57,7 @@ export default function Home() {
         <div className="col-span-12 space-y-6 xl:col-span-7">
           <EcommerceMetrics customerCount={allCustomerCount} ordersCount={ordersSummary?.orderTotal}/>
 
-          <MonthlySalesChart orderCount={ordersSummary?.orderCount}/>
+          <MonthlySalesChart orderCount={dummyOrdersSummary}/>
         </div>
 
 
@@ -63,7 +68,7 @@ export default function Home() {
                 Most Sale Item
               </h3>
               <img
-                  src={mostSaleItemDetails?.itemImageUrl}
+                  src='https://m.media-amazon.com/images/I/31dke4F%2BcTL._SY300_SX300_QL70_FMwebp_.jpg'
                   alt=""
                   className="mt-4 w-[340px] mx-auto"
               />
