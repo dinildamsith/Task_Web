@@ -8,7 +8,6 @@ import {
   GridIcon, GroupIcon,
   HorizontaLDots,
   ListIcon,
-  UserCircleIcon,
 } from "../icons";
 import { useSidebar } from "../context/SidebarContext";
 
@@ -49,11 +48,11 @@ const navItems: NavItem[] = [
       { name: "Order History", path: "/all-orders", pro: false },
     ],
   },
-  {
-    icon: <UserCircleIcon />,
-    name: "Profile",
-    path: "/profile",
-  },
+  // {
+  //   icon: <UserCircleIcon />,
+  //   name: "Profile",
+  //   path: "/profile",
+  // },
   // {
   //   icon: <UserCircleIcon />,
   //   name: "basic",
