@@ -149,11 +149,13 @@ export default function AllItemsTable(props: any) {
                       <TableCell className="px-4 py-3 text-gray-500 text-center text-theme-sm dark:text-gray-400">
                         <div className="flex items-center justify-center gap-2">
                           <button
+                              disabled={true}
                               onClick={() => itemUpdateButtonHandel(item.itemCode)}
                               className="text-theme-link dark:text-theme-link-dark border border-transparent rounded p-1 hover:border-white ">
                             <PencilIcon className="w-5 h-5" />
                           </button>
                           <button
+                              disabled={true}
                               onClick={() => itemDeleteHandel(item.itemCode)}
                               className="text-theme-link dark:text-theme-link-dark border border-transparent rounded p-1 hover:border-white ">
                             <TrashBinIcon className="w-5 h-5" />
