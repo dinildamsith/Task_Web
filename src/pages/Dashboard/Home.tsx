@@ -57,7 +57,7 @@ export default function Home() {
         <div className="col-span-12 space-y-6 xl:col-span-7">
           <EcommerceMetrics customerCount={allCustomerCount} ordersCount={ordersSummary?.orderTotal}/>
 
-          <MonthlySalesChart orderCount={dummyOrdersSummary}/>
+          <MonthlySalesChart orderCount={dummyOrdersSummary.orderCount}/>
         </div>
 
 
