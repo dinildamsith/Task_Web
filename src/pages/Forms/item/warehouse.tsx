@@ -8,7 +8,7 @@ const dummyData = [
     {
         _id: "1",
         itemCode: "ITEM001",
-        itemImageUrl: "https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=40&q=80",
+        itemImageUrl: "https://i5.walmartimages.com/seo/Fresh-Red-Delicious-Apple-Each_7320e63a-de46-4a16-9b8c-526e15219a12_3.e557c1ad9973e1f76f512b34950243a3.jpeg",
         itemDescription: "Red Apple",
         itemQuantity: 15,
         status: "Available",
@@ -17,7 +17,7 @@ const dummyData = [
     {
         _id: "2",
         itemCode: "ITEM002",
-        itemImageUrl: "https://images.unsplash.com/photo-1506801310323-534be5e7e7a0?auto=format&fit=crop&w=40&q=80",
+        itemImageUrl: "https://m.media-amazon.com/images/I/31dke4F%2BcTL._SY300_SX300_QL70_FMwebp_.jpg",
         itemDescription: "Fresh Banana",
         itemQuantity: 0,
         status: "Out of stock",
@@ -26,7 +26,7 @@ const dummyData = [
     {
         _id: "3",
         itemCode: "ITEM003",
-        itemImageUrl: "https://images.unsplash.com/photo-1574226516831-e1dff420e42e?auto=format&fit=crop&w=40&q=80",
+        itemImageUrl: "https://bakedbyclo.com/wp-content/uploads/2023/04/a-glass-of-vegan-orange-juice.jpg",
         itemDescription: "Orange Juice",
         itemQuantity: 4,
         status: "Low stock",
@@ -35,7 +35,7 @@ const dummyData = [
     {
         _id: "4",
         itemCode: "ITEM004",
-        itemImageUrl: "https://images.unsplash.com/photo-1519181245277-cffeb31da2a4?auto=format&fit=crop&w=40&q=80",
+        itemImageUrl: "https://erewhonappsftp.s3.us-west-2.amazonaws.com/images/233571000-1.png?date=2025-04-1600:56:58.372",
         itemDescription: "Green Grapes",
         itemQuantity: 12,
         status: "Available",

@@ -28,12 +28,12 @@ export default function Home() {
     })
     setOutOfStockItems([
         {
-            itemName: "Item 1",
-            itemImageUrl: "https://via.placeholder.com/150"
+            itemName: "Red Apple",
+            itemImageUrl: "https://i5.walmartimages.com/seo/Fresh-Red-Delicious-Apple-Each_7320e63a-de46-4a16-9b8c-526e15219a12_3.e557c1ad9973e1f76f512b34950243a3.jpeg"
         },
         {
-            itemName: "Item 2",
-            itemImageUrl: "https://via.placeholder.com/150"
+            itemName: "Fresh Banana",
+            itemImageUrl: "https://m.media-amazon.com/images/I/31dke4F%2BcTL._SY300_SX300_QL70_FMwebp_.jpg"
         }
         ])
     setMostSaleItemDetails({

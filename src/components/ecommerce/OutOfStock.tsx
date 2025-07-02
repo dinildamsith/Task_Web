@@ -119,10 +119,10 @@ export default function OutOfStock(props:any) {
                   </div>
                 </TableCell>
                 <TableCell className="text-center py-3 text-gray-500 text-theme-sm dark:text-gray-400">
-                  Rs: {product.itemPrice}.00
+                  Rs: 290.00
                 </TableCell>
                 <TableCell className="text-center py-3 text-gray-500 text-theme-sm dark:text-gray-400">
-                  {product.itemQuantity}
+                  0
                 </TableCell>
                 <TableCell className="text-center py-3 text-gray-500 text-theme-sm dark:text-gray-400">
                   <Badge
