@@ -2,7 +2,7 @@
 
 ---
 
-## Task Option Chosen
+## Task Option Chosen ( 1 )
 
 Option: Build an admin dashboard for a café that includes:
 - Customer list with search and sort
